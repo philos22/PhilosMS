@@ -110,7 +110,7 @@ public final class UseCashItemHandler extends AbstractMaplePacketHandler {
         if (itemType == 504) { // vip teleport rock
             String error1 = "Either the player could not be found or you were trying to teleport to an illegal location.";
             boolean vip = slea.readByte() == 1 && itemId / 1000 >= 5041;
-            remove(c, position, itemId);
+            // remove(c, position, itemId);
             boolean success = false;
             if (!vip) {
                 int mapId = slea.readInt();
@@ -206,7 +206,7 @@ public final class UseCashItemHandler extends AbstractMaplePacketHandler {
                     return;
                 }
             }
-            remove(c, position, itemId);
+            // remove(c, position, itemId);
         } else if (itemType == 506) {
             Item eq = null;
             if (itemId == 5060000) { // Item tag.
