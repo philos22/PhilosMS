@@ -206,7 +206,7 @@ public final class UseCashItemHandler extends AbstractMaplePacketHandler {
                     return;
                 }
             }
-            // remove(c, position, itemId);
+            remove(c, position, itemId);
         } else if (itemType == 506) {
             Item eq = null;
             if (itemId == 5060000) { // Item tag.
