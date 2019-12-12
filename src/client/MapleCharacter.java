@@ -1389,6 +1389,9 @@ public class MapleCharacter extends AbstractMapleCharacterObject {
     }
     
     public void changeMapBanish(int mapid, String portal, String msg) {
+        if(!YamlConfig.config.server.ENABLE_BANISH) {
+            return;
+        }
         if(YamlConfig.config.server.USE_SPIKES_AVOID_BANISH) {
             for(Item it: this.getInventory(MapleInventoryType.EQUIPPED).list()) {
                 if((it.getFlag() & ItemConstants.SPIKES) == ItemConstants.SPIKES) {

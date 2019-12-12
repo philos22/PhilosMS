@@ -2,6 +2,18 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="2"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/Users/Philos/Downloads/heavenms/HeavenMS/src/net/server/channel/handlers/MobBanishPlayerHandler.java</file>
+            <file>file:/C:/Users/Philos/Downloads/heavenms/HeavenMS/src/server/life/MapleMonster.java</file>
+            <file>file:/C:/Users/Philos/Downloads/heavenms/HeavenMS/src/client/command/CommandsExecutor.java</file>
+            <file>file:/C:/Users/Philos/Downloads/heavenms/HeavenMS/src/config/YamlConfig.java</file>
+            <file>file:/C:/Users/Philos/Downloads/heavenms/HeavenMS/src/net/server/channel/handlers/AbstractDealDamageHandler.java</file>
+            <file>file:/C:/Users/Philos/Downloads/heavenms/HeavenMS/src/client/command/commands/gm2/GmShopCommand.java</file>
+            <file>file:/C:/Users/Philos/Downloads/heavenms/HeavenMS/src/client/inventory/MaplePet.java</file>
+            <file>file:/C:/Users/Philos/Downloads/heavenms/HeavenMS/src/config/ServerConfig.java</file>
+            <file>file:/C:/Users/Philos/Downloads/heavenms/HeavenMS/src/server/life/MapleMonsterStats.java</file>
+            <file>file:/C:/Users/Philos/Downloads/heavenms/HeavenMS/src/constants/skills/Shadower.java</file>
+            <file>file:/C:/Users/Philos/Downloads/heavenms/HeavenMS/src/client/MapleCharacter.java</file>
+        </group>
     </open-files>
 </project-private>
