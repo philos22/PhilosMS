@@ -24,6 +24,9 @@ public class IdCommand extends Command {
         handbookDirectory.put("etc", "handbook/Etc.txt");
         handbookDirectory.put("npc", "handbook/NPC.txt");
         handbookDirectory.put("use", "handbook/Use.txt");
+        handbookDirectory.put("mob", "handbook/Mob.txt");
+        handbookDirectory.put("quest", "handbook/Quest.txt");
+        handbookDirectory.put("setup", "handbook/Setup.txt");
         handbookDirectory.put("weapon", "handbook/Equip/Weapon.txt");
         handbookDirectory.put("accessory", "handbook/Equip/Accessory.txt");
         handbookDirectory.put("hat", "handbook/Equip/Cap.txt");
