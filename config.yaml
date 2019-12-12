@@ -7,12 +7,12 @@ worlds:
     server_message: Welcome to Scania!
     event_message: Scania!
     why_am_i_recommended: Welcome to Scania!
-    channels: 3
-    exp_rate: 10
-    meso_rate: 15
-    drop_rate: 3
-    boss_drop_rate: 5                       #NOTE: Boss drop rate OVERRIDES common drop rate, for bosses-only.
-    quest_rate: 4                           #Multiplier for Exp & Meso gains when completing a quest. Only available when USE_QUEST_RATE is true. Stacks with server Exp & Meso rates.
+    channels: 10
+    exp_rate: 8
+    meso_rate: 30
+    drop_rate: 16
+    boss_drop_rate: 20                      #NOTE: Boss drop rate OVERRIDES common drop rate, for bosses-only.
+    quest_rate: 2                           #Multiplier for Exp & Meso gains when completing a quest. Only available when USE_QUEST_RATE is true. Stacks with server Exp & Meso rates.
     fishing_rate: 10                        #Multiplier for success likelihood on meso thrown during fishing.
     travel_rate: 10                         #Means of transportation rides/departs using 1/N of the default time.
 
@@ -344,8 +344,8 @@ server:
     USE_ENHANCED_CRAFTING: true     #Apply chaos scroll on every equip crafted.
     USE_ENHANCED_CLNSLATE: true     #Clean slates can be applied to recover successfully used slots as well.
     SCROLL_CHANCE_ROLLS: 10         #Number of rolls for success on a scroll, set 1 for default.
-    CHSCROLL_STAT_RATE: 3               #Number of rolls of stat upgrade on a successfully applied chaos scroll, set 1 for default.
-    CHSCROLL_STAT_RANGE: 5              #Stat upgrade range (-N, N) on chaos scrolls.
+    CHSCROLL_STAT_RATE: 10               #Number of rolls of stat upgrade on a successfully applied chaos scroll, set 1 for default.
+    CHSCROLL_STAT_RANGE: 10              #Stat upgrade range (N/2, N) on chaos scrolls.
 
     #Beginner Skills Configuration
     USE_ULTRA_NIMBLE_FEET: true     #Massive speed & jump upgrade.
@@ -396,7 +396,7 @@ server:
     USE_SPIKES_AVOID_BANISH: true   #Shoes equipped with spikes prevents mobs from banishing wearer.
     MAX_EQUIPMNT_LVLUP_STAT_UP: 10000   #Max stat upgrade an equipment can have on a levelup.
     MAX_EQUIPMNT_STAT: 32767            #Max stat on an equipment by leveling up.
-    USE_EQUIPMNT_LVLUP: 3               #All equips lvlup at max level of N, set 1 to disable.
+    USE_EQUIPMNT_LVLUP: 12              #All equips lvlup at max level of N, set 1 to disable.
 
     #Map-Chair Configuration
     USE_CHAIR_EXTRAHEAL: true       #Enable map chairs to further recover player's HP and MP (player must have the Chair Mastery skill).

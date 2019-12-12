@@ -24,7 +24,24 @@ public class IdCommand extends Command {
         handbookDirectory.put("etc", "handbook/Etc.txt");
         handbookDirectory.put("npc", "handbook/NPC.txt");
         handbookDirectory.put("use", "handbook/Use.txt");
-        handbookDirectory.put("weapon", "handbook/Equip/Weapon.txt"); // TODO add more into this
+        handbookDirectory.put("weapon", "handbook/Equip/Weapon.txt");
+        handbookDirectory.put("accessory", "handbook/Equip/Accessory.txt");
+        handbookDirectory.put("hat", "handbook/Equip/Cap.txt");
+        handbookDirectory.put("cap", "handbook/Equip/Cap.txt");
+        handbookDirectory.put("helmet", "handbook/Equip/Cap.txt");
+        handbookDirectory.put("cape", "handbook/Equip/Cape.txt");
+        handbookDirectory.put("top", "handbook/Equip/Coat.txt");
+        handbookDirectory.put("coat", "handbook/Equip/Coat.txt");
+        handbookDirectory.put("glove", "handbook/Equip/Glove.txt");
+        handbookDirectory.put("overall", "handbook/Equip/Longcoat.txt");
+        handbookDirectory.put("longcoat", "handbook/Equip/Longcoat.txt");
+        handbookDirectory.put("pants", "handbook/Equip/Pants.txt");
+        handbookDirectory.put("bottom", "handbook/Equip/Pants.txt");
+        handbookDirectory.put("ring", "handbook/Equip/Ring.txt");
+        handbookDirectory.put("shield", "handbook/Equip/Shield.txt");
+        handbookDirectory.put("shoe", "handbook/Equip/Shoes.txt");
+        handbookDirectory.put("shoes", "handbook/Equip/Shoes.txt");
+        handbookDirectory.put("weapon", "handbook/Equip/Weapon.txt");
     }
 
     @Override

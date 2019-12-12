@@ -638,7 +638,7 @@ public class MapleItemInformationProvider {
     }
 
     private static short chscrollRandomizedStat(int range) {
-        return (short) Randomizer.rand(-range, range);
+        return (short) Randomizer.rand(range/2, range);
     }
 
     public void scrollOptionEquipWithChaos(Equip nEquip, int range, boolean option) {
