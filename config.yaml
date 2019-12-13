@@ -7,7 +7,7 @@ worlds:
     server_message: Welcome to Scania!
     event_message: Scania!
     why_am_i_recommended: Welcome to Scania!
-    channels: 10
+    channels: 1
     exp_rate: 8
     meso_rate: 30
     drop_rate: 16
