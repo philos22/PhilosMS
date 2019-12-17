@@ -35,6 +35,16 @@ public class GmShopCommand extends Command {
 
     @Override
     public void execute(MapleClient c, String[] params) {
-        MapleShopFactory.getInstance().getShop(1337).sendShop(c);
+        try {
+            //  Block of code to try
+            MapleShopFactory.getInstance().getShop(1337).sendShop(c);
+        }
+        catch(Exception e) {
+            //  Block of code to handle errors
+            e.printStackTrace(); 
+
+            // Prints what exception has been thrown 
+            System.out.println(e); 
+        }
     }
 }

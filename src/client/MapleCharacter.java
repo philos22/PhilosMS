@@ -2200,7 +2200,7 @@ public class MapleCharacter extends AbstractMapleCharacterObject {
     }
     
     public void decreaseBattleshipHp(int decrease) {
-        this.battleshipHp -= decrease;
+        this.battleshipHp -= 1;
         if (battleshipHp <= 0) {
             Skill battleship = SkillFactory.getSkill(Corsair.BATTLE_SHIP);
             int cooldown = battleship.getEffect(getSkillLevel(battleship)).getCooldown();
