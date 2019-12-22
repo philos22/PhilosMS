@@ -188,7 +188,7 @@ public class MobSkill {
                 }
                 break;
             case 128: // Seduce
-                disease = MapleDisease.SEDUCE;
+//                disease = MapleDisease.SEDUCE;
                 break;
             case 129: // Banish
                 if (lt != null && rb != null && skill) {
@@ -335,14 +335,15 @@ public class MobSkill {
                 int i = 0;
                 for (MapleCharacter character : getPlayersInRange(monster)) {
                     if (!character.hasActiveBuff(2321005)) {  // holy shield
-                        if (disease.equals(MapleDisease.SEDUCE)) {
-                            if (i < 10) {
-                                character.giveDebuff(MapleDisease.SEDUCE, this);
-                                i++;
-                            }
-                        } else {
-                            character.giveDebuff(disease, this);
-                        }
+                        character.giveDebuff(disease, this);
+//                        if (disease.equals(MapleDisease.SEDUCE)) {
+//                            if (i < 10) {
+//                                character.giveDebuff(MapleDisease.SEDUCE, this);
+//                                i++;
+//                            }
+//                        } else {
+//                            character.giveDebuff(disease, this);
+//                        }
                     }
                 }
             } else {

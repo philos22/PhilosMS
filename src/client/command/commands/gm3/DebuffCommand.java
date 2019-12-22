@@ -57,8 +57,8 @@ public class DebuffCommand extends Command {
                 break;
 
             case "SEDUCE":
-                disease = MapleDisease.SEDUCE;
-                skill = MobSkillFactory.getMobSkill(128, 7);
+//                disease = MapleDisease.SEDUCE;
+//                skill = MobSkillFactory.getMobSkill(128, 7);
                 break;
 
             case "ZOMBIFY":
