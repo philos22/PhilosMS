@@ -14,8 +14,9 @@
 3. Move the "PhilosMS.exe" file into your Maplestory folder
 4. Overwrite the original WZ files with the ones provided (copy paste contents from above folder current_wz)
 
-## Connect to server using Hamachi
-Join existing server - NetworkID: philosms // Password: maplestory
+## Connect to server using Hamachi - Join existing server 
+NetworkID: philosms <br>
+Password: maplestory
 
 ## Client Exe file 
 - Run in compatibility mode for Windows 7
