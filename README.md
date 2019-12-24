@@ -15,7 +15,7 @@
 4. Overwrite the original WZ files with the ones provided (copy paste contents from above folder current_wz)
 
 ## Connect to server using Hamachi
-Install Hamachi with the link above, create an account and log in. Then select *join existing server* and enter the following credentials:
+Install Hamachi with the link above, create an account and log in. Then select *join existing server* and enter the following credentials: <br>
 **NetworkID**: philosms <br>
 **Password**: maplestory
 
