@@ -20,7 +20,9 @@ Install Hamachi with the link above, create an account and log in. Then select *
 **Password**: maplestory
 
 ## Client Exe file 
-Tips to run game successfully (**PhilosMS.exe**)
+Tips to run game successfully (**PhilosMS.exe**) <br>
+Right-click on the **PhilosMS.exe** file and go into **Properties** <br>
+Click into the **Compatibility** tab <br>
 - Run in compatibility mode for Windows 7
 - Uncheck reduced color mode;
 - Run with 640 x 480 resolution;
