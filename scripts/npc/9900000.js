@@ -47,11 +47,11 @@ function pushIfItemExists(array, itemid) {
 }
 
 function start() {
-    if(cm.getPlayer().gmLevel() < 1) {
-        cm.sendOk("Hey wassup?");
-        cm.dispose();
-        return;
-    }
+//    if(cm.getPlayer().gmLevel() < 1) {
+//        cm.sendOk("Hey wassup?");
+//        cm.dispose();
+//        return;
+//    }
     
 	if(cm.getPlayer().isMale()){
 		cm.sendSimple("Hey there, you can change your look for " + price + " mesos. What would you like to change?\r\n#L0#Skin#l\r\n#L1#Male Hair#l\r\n#L2#Hair Color#l\r\n#L3#Male Regular Eyes#l\r\n#L4#Eye Color#l");
