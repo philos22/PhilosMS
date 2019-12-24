@@ -1,7 +1,7 @@
 # Start Mapling
 
 ## Download these:
-1. Hamachi server: Google this (easy peasy) and register/log in <br>
+1. Hamachi server: [Link](https://hamachi.en.softonic.com/) <br>
 2. WZ files: [Link](https://drive.google.com/file/d/1SIbRHmtV-kBfbZ4eEhbnspiNgWAMd1O7/view?usp=sharing) <br>
 3. Maplestory v83 source: [Link](https://drive.google.com/open?id=1wWreM_AfdDEne6cBCdOL93YLJ2SMVWPC) <br>
 4. PhilosMS.exe: [Link](https://gofile.io/?c=qI0ykL) <br>
@@ -14,11 +14,13 @@
 3. Move the "PhilosMS.exe" file into your Maplestory folder
 4. Overwrite the original WZ files with the ones provided (copy paste contents from above folder current_wz)
 
-## Connect to server using Hamachi - Join existing server 
+## Connect to server using Hamachi
+Install Hamachi with the link above, create an account and log in. Then select *join existing server* and enter the following credentials:
 **NetworkID**: philosms <br>
 **Password**: maplestory
 
 ## Client Exe file 
+Tips to run game successfully (**PhilosMS.exe**)
 - Run in compatibility mode for Windows 7
 - Uncheck reduced color mode;
 - Run with 640 x 480 resolution;
