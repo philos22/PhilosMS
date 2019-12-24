@@ -1,4 +1,4 @@
-### Setup 
+# Start Mapling
 
 ## Download these:
 Hamachi server: Google this (easy peasy) and register/log in
