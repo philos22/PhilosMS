@@ -56,6 +56,10 @@ function start() {
 
 function action(mode, type, selection) {
     status++;
+    if (mode != 1){
+        cm.dispose();
+        return;
+    }
     if (status == 1) {
         beauty = selection + 1;
 		if(cm.getMeso() > price){
