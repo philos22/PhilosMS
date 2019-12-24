@@ -17,9 +17,14 @@
 ## Connect to server using Hamachi
 Join existing server - NetworkID: philosms // Password: maplestory
 
+## Client Exe file 
+- Run in compatibility mode for Windows 7
+- Uncheck reduced color mode;
+- Run with 640 x 480 resolution;
+- Uncheck disable display on high DPI settings;
+- Run as an administrator;
 
-  The following list, in bottom-up chronological order, holds information regarding all changes that were applied from the starting localhost used in this development. Some lines have a link attached, that will lead you to a snapshot of the localhost at that version of the artifact. Naturally, later versions holds all previous changes along with the proposed changes.
-
+<br><br><br>
 **Change log:**
 
   * Remove seduce on bosses
