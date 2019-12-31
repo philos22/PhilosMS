@@ -4,16 +4,14 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/Philos/Downloads/heavenms/HeavenMS/src/net/server/channel/handlers/SummonDamageHandler.java</file>
-            <file>file:/C:/Users/Philos/Downloads/heavenms/HeavenMS/src/server/MapleItemInformationProvider.java</file>
-            <file>file:/C:/Users/Philos/Downloads/heavenms/HeavenMS/src/net/opcodes/SendOpcode.java</file>
-            <file>file:/C:/Users/Philos/Downloads/heavenms/HeavenMS/scripts/npc/9000021_old.js</file>
+            <file>file:/C:/Users/Philos/Downloads/heavenms/HeavenMS/src/client/MapleStat.java</file>
             <file>file:/C:/Users/Philos/Downloads/heavenms/HeavenMS/src/tools/MaplePacketCreator.java</file>
+            <file>file:/C:/Users/Philos/Downloads/heavenms/HeavenMS/src/client/Skill.java</file>
             <file>file:/C:/Users/Philos/Downloads/heavenms/HeavenMS/src/client/AbstractMapleCharacterObject.java</file>
             <file>file:/C:/Users/Philos/Downloads/heavenms/HeavenMS/src/net/server/channel/handlers/AbstractDealDamageHandler.java</file>
-            <file>file:/C:/Users/Philos/Downloads/heavenms/HeavenMS/src/client/inventory/MapleWeaponType.java</file>
             <file>file:/C:/Users/Philos/Downloads/heavenms/HeavenMS/handbook/Skill.txt</file>
+            <file>file:/C:/Users/Philos/Downloads/heavenms/HeavenMS/src/client/command/commands/gm2/ApCommand.java</file>
             <file>file:/C:/Users/Philos/Downloads/heavenms/HeavenMS/src/net/server/channel/handlers/MagicDamageHandler.java</file>
-            <file>file:/C:/Users/Philos/Downloads/heavenms/HeavenMS/src/net/server/channel/handlers/RangedAttackHandler.java</file>
             <file>file:/C:/Users/Philos/Downloads/heavenms/HeavenMS/src/client/MapleCharacter.java</file>
         </group>
     </open-files>

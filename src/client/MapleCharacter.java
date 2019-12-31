@@ -848,19 +848,8 @@ public class MapleCharacter extends AbstractMapleCharacterObject {
     public int calculateMaxBaseMagicDamage(int matk) {
         int maxbasedamage = matk;
         int totalint = getTotalInt();
-        
-        if (totalint > 2000) {
-            maxbasedamage -= 2000;
-            maxbasedamage += (int) (totalint + 95000);
-        } else {
-            maxbasedamage -= totalint;
-            
-            if (totalint > 1700) {
-                maxbasedamage += (int) (Math.pow(totalint, 1.500631341));
-            } else {
-                maxbasedamage += (int) (Math.pow(totalint, 1.70631341));
-            }
-        }
+        int incrementaldmg = totalint * maxbasedamage/10;
+        maxbasedamage += (int) (incrementaldmg);
         
         return (maxbasedamage * 107) / 100;
     }

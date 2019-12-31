@@ -663,7 +663,7 @@ public abstract class AbstractDealDamageHandler extends AbstractMaplePacketHandl
         long calcDmgMax;
         
         if(magic && ret.skill != 0) {   // thanks onechord for noticing a few false positives stemming from maxdmg as 0
-            calcDmgMax = (long) (Math.ceil((chr.getTotalMagic() * Math.ceil(chr.getTotalMagic() / 1000.0) + chr.getTotalMagic()) / 30.0) + Math.ceil(chr.getTotalInt() / 200.0));
+            calcDmgMax = (long) (Math.ceil((chr.getTotalMagic() * Math.ceil(chr.getTotalMagic() / 10.0) + chr.getTotalMagic()) / 3.0) + Math.ceil(chr.getTotalInt() / 20.0));
         } else if(ret.skill == 4001344 || ret.skill == NightWalker.LUCKY_SEVEN || ret.skill == NightLord.TRIPLE_THROW) {
             calcDmgMax = (long) ((chr.getTotalLuk() * 5) * Math.ceil(chr.getTotalWatk() / 100.0));
         } else if(ret.skill == DragonKnight.DRAGON_ROAR) {
@@ -683,26 +683,26 @@ public abstract class AbstractDealDamageHandler extends AbstractMaplePacketHandl
                 if(chr.getJob() == MapleJob.IL_ARCHMAGE || chr.getJob() == MapleJob.IL_MAGE) {
                     int skillLvl = chr.getSkillLevel(ILMage.ELEMENT_AMPLIFICATION);
                     if(skillLvl > 0)
-                        calcDmgMax = calcDmgMax * SkillFactory.getSkill(ILMage.ELEMENT_AMPLIFICATION).getEffect(skillLvl).getY() / 100;
+                        calcDmgMax = calcDmgMax * SkillFactory.getSkill(ILMage.ELEMENT_AMPLIFICATION).getEffect(skillLvl).getY() / 10;
                 } else if(chr.getJob() == MapleJob.FP_ARCHMAGE || chr.getJob() == MapleJob.FP_MAGE) {
                     int skillLvl = chr.getSkillLevel(FPMage.ELEMENT_AMPLIFICATION);
                     if(skillLvl > 0)
-                        calcDmgMax = calcDmgMax * SkillFactory.getSkill(FPMage.ELEMENT_AMPLIFICATION).getEffect(skillLvl).getY() / 100;
+                        calcDmgMax = calcDmgMax * SkillFactory.getSkill(FPMage.ELEMENT_AMPLIFICATION).getEffect(skillLvl).getY() / 10;
                 } else if(chr.getJob() == MapleJob.BLAZEWIZARD3 || chr.getJob() == MapleJob.BLAZEWIZARD4) {
                     int skillLvl = chr.getSkillLevel(BlazeWizard.ELEMENT_AMPLIFICATION);
                     if(skillLvl > 0)
-                        calcDmgMax = calcDmgMax * SkillFactory.getSkill(BlazeWizard.ELEMENT_AMPLIFICATION).getEffect(skillLvl).getY() / 100;
+                        calcDmgMax = calcDmgMax * SkillFactory.getSkill(BlazeWizard.ELEMENT_AMPLIFICATION).getEffect(skillLvl).getY() / 10;
                 } else if(chr.getJob() == MapleJob.EVAN7 || chr.getJob() == MapleJob.EVAN8 || chr.getJob() == MapleJob.EVAN9 || chr.getJob() == MapleJob.EVAN10) {
                     int skillLvl = chr.getSkillLevel(Evan.MAGIC_AMPLIFICATION);
                     if(skillLvl > 0)
-                        calcDmgMax = calcDmgMax * SkillFactory.getSkill(Evan.MAGIC_AMPLIFICATION).getEffect(skillLvl).getY() / 100;
+                        calcDmgMax = calcDmgMax * SkillFactory.getSkill(Evan.MAGIC_AMPLIFICATION).getEffect(skillLvl).getY() / 10;
                 }
                 
                 calcDmgMax *= effect.getMatk();
                 if(ret.skill == Cleric.HEAL) {
                     // This formula is still a bit wonky, but it is fairly accurate.
-                    calcDmgMax = (int) Math.round((chr.getTotalInt() * 4.8 + chr.getTotalLuk() * 4) * chr.getTotalMagic() / 1000);
-                    calcDmgMax = calcDmgMax * effect.getHp() / 100; 
+                    calcDmgMax = (int) Math.round((chr.getTotalInt() * 4.8 + chr.getTotalLuk() * 4) * chr.getTotalMagic() / 10);
+                    calcDmgMax = calcDmgMax * effect.getHp() / 10; 
                     
                     ret.speed = 7;
                 }
