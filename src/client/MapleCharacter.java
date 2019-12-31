@@ -851,14 +851,14 @@ public class MapleCharacter extends AbstractMapleCharacterObject {
         
         if (totalint > 2000) {
             maxbasedamage -= 2000;
-            maxbasedamage += (int) ((0.09033024267 * totalint) + 3823.8038);
+            maxbasedamage += (int) (totalint + 95000);
         } else {
             maxbasedamage -= totalint;
             
             if (totalint > 1700) {
-                maxbasedamage += (int) (0.1996049769 * Math.pow(totalint, 1.300631341));
+                maxbasedamage += (int) (Math.pow(totalint, 1.500631341));
             } else {
-                maxbasedamage += (int) (0.1996049769 * Math.pow(totalint, 1.290631341));
+                maxbasedamage += (int) (Math.pow(totalint, 1.70631341));
             }
         }
         

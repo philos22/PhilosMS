@@ -131,7 +131,7 @@ public final class SummonDamageHandler extends AbstractDealDamageHandler {
         
         if (magic) {
             int matk = Math.max(player.getTotalMagic(), 14);
-            maxDamage = player.calculateMaxBaseMagicDamage(matk) * (0.05 * summonEffect.getMatk());
+            maxDamage = player.calculateMaxBaseMagicDamage(matk) * (summonEffect.getMatk());
         } else {
             int watk = Math.max(player.getTotalWatk(), 14);
             Item weapon_item = player.getInventory(MapleInventoryType.EQUIPPED).getItem((short) -11);
